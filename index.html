@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>LangUm</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <h2>
+        <a href="#">LangUm</a>
+    </h2>
+    <h4>Изучай языки с нами!</h4>
+</header>
+
+<div class="tabs">
+    <input id="tab1" type="radio" name="tabs" checked>
+    <label for="tab1">Главная</label>
+    <input id="tab2" type="radio" name="tabs">
+    <label for="tab2">Узнавай</label>
+    <input id="tab3" type="radio" name="tabs">
+    <label for="tab3">Делись</label>
+    <input id="tab4" type="radio" name="tabs">
+    <label for="tab4">Помогай</label>
+
+    <section id="content1">
+        <div class="flex-box">
+            <div style="width: 40%">
+                <img src="img/flag.jpg" width="80%">
+            </div>
+            <div style="width: 60%">
+                <div class="slider">
+                    <input type="radio" name="switch" id="btn1" checked>
+                    <input type="radio" name="switch" id="btn2">
+                    <input type="radio" name="switch" id="btn3">
+
+                    <div class="switch">
+                        <label for="btn1"></label>
+                        <label for="btn2"></label>
+                        <label for="btn3"></label>
+                    </div>
+
+                    <div class="slider-inner">
+                        <div class="slides">
+                            <img src="img/club.jpg"/>
+                            <img src="img/movies.jpg"/>
+                            <img src="img/serial.jpg"/>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="flex-box" style="margin-top: 30px">
+            <div style="width: 30%">
+                <div>
+                    <label for="login">Логин</label>
+                    <input class="text-field__input" type="text" id="login" placeholder="Login">
+                    <label for="password">Пароль</label>
+                    <input class="text-field__input" type="password" id="password" placeholder="Password">
+                    <button class="login-button" onclick="alert('Вы вошли!')">Войти</button>
+                    <br>
+                    <a href="#">Забыли пароль?</a>
+                    <h2>Новости</h2>
+                </div>
+            </div>
+            <div style="width: 70%" class="about-us">
+                <h3>О нас</h3>
+                <div>LangUm – это уникальный проект, благодаря которому вы сможете разделить вашу любовь к языкам с
+                    тысячью других таких же заинтересованных и вдохновленных людей. Здесь вы можете найти полезные
+                    материалы по изучению языка, интересные факты, связанные с ним и некоторые методические пособия,
+                    которые помогут вам на пути изучения. Кроме того, вы можете стать участником большого количества
+                    интересных событий, проходящих на нашей платформе. Следите за информацией в разделе «Предстоящие
+                    события».
+                    Если вы только начинаете своё знакомство, то не стоит бояться, в разделе «Узнавай» вы сможете узнать
+                    все самые основные вещи об изучаемо языке. Более того, в блоке «Помогай» вы сможете найти много
+                    полезной информации от людей из совершенно разных точек мира, которые смогут вам помочь разобраться
+                    в сложных вопросах. Если вы уже, своего рода, эксперт в изучении языка, то добро пожаловать в раздел
+                    «Делись», где вы сможете поделиться интересными находками и фактами, обнаруженными в процессе
+                    изучения. И пусть удача всегда будет с вами!
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="content2">
+        <div>
+            <h2>Английский язык</h2>
+            <div class="flex-box">
+                <div class="english-info">
+                    Английский язык является одним из самых распространенных языков в мире. Английский язык это язык
+                    международного общения. Он является официальным языком в таких странах, как США, Канада,
+                    Великобритания, Австралия, Новая Зеландия.
+                </div>
+                <div class="word-of-the-day">
+                    <h3>Слово дня</h3>
+                    <h2>Resolute</h2>
+                    <div>purposeful and determined person, someone who wants to do something very much, and won't let
+                        anything get in the way
+                    </div>
+                </div>
+            </div>
+            <h2>Уровни языка</h2>
+            <img src="img/lvels.png">
+            <h2>Фонетика</h2>
+            <img src="img/phonemic.png" width="60%">
+            <h2>Грамматика</h2>
+            <img src="img/gram.jpg">
+        </div>
+    </section>
+    <section id="content3">
+        Делись
+    </section>
+    <section id="content4">
+        Помогай
+    </section>
+</div>
+
+<footer>
+    <div>LangUm</div>
+    <div>FAQ</div>
+    <div>Контакты</div>
+    <div>Тех. поддержка</div>
+</footer>
+</body>
+</html>
