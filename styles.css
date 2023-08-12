@@ -11,10 +11,26 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+title {
+    color: #000;
+    font-family: Jacques Francois;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
 body {
     margin: 0;
     padding: 0;
     background-color: #FAF8F9;
+}
+
+.main-header-nav {
+    background-color: #F9EAFF;
+    width: 635px;
+    height: 79px;
+    flex-shrink: 0;
 }
 
 header {
@@ -25,7 +41,7 @@ header {
     font-family: 'Open Sans', sans-serif;
 }
 
-header h4 {
+header h3 {
     color: var(--light-text-color);
 }
 
